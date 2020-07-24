@@ -1,58 +1,57 @@
-body{
+body {
 }
-#navbar{
-    
+#navbar {
 }
-#navbar ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 @import url('<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">');
-#navbar{
-    background-color: rgb(13, 13, 31);
-    padding: 13px 14px;
-    font-family: 'Acme', sans-serif;
+#navbar {
+  background-color: rgb(13, 13, 31);
+  padding: 13px 14px;
+  font-family: "Acme", sans-serif;
 }
-#navbar li{
-    /* margin: 23px; */
-    list-style: none;
+#navbar li {
+  /* margin: 23px; */
+  list-style: none;
 }
-#navbar li a{
-    color: white;
-    text-decoration: none;
-    padding: 7px 15px;
-    font-size: 1.2rem;
+#navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 7px 15px;
+  font-size: 1.2rem;
 }
-#introSection{
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 2.3rem;
-    background: center/cover no-repeat url("../static/dance.jpg");
-       opacity: 0.8;
+#introSection {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.3rem;
+  background: center/cover no-repeat url("../static/dance.jpg");
+  opacity: 0.8;
 }
 #sponsorSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background: center/cover no-repeat url("../static/dance1.jpg");
-        /* background-color: aquamarine; */
-        height: 300px;
-        opacity: .9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: center/cover no-repeat url("../static/dance1.jpg");
+  /* background-color: aquamarine; */
+  height: 300px;
+  opacity: 0.9;
 }
-#footer{
-    /* background-color: blanchedalmond; */
-     height: 100px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+#footer {
+  /* background-color: blanchedalmond; */
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
